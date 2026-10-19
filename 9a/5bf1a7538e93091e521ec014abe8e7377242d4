@@ -1,0 +1,76 @@
+README.md
+  s_64bfe2347f33f2::t_e04ce3284b5405 1-148
+src/main/kotlin/io/github/cn3shy/ssc/ui/SingleSqlCopyDialog.kt
+  s_64bfe2347f33f2::t_f16291ffffc4d7 4-308,314-315
+  s_64bfe2347f33f2::t_413844085303ef 1-3
+  s_64bfe2347f33f2::t_3da70ffd14a5c0 309-313
+  s_64bfe2347f33f2::t_6ec7ca2447a471 316
+gradle.properties
+  s_64bfe2347f33f2::t_ff1774c7dae4f5 1
+  s_64bfe2347f33f2::t_ba62a855d447aa 2-4
+  s_64bfe2347f33f2::t_a8329829132396 5-6
+build.gradle.kts
+  s_64bfe2347f33f2::t_c98da048c06e7e 7
+  s_64bfe2347f33f2::t_d937409c129fa8 3
+  s_64bfe2347f33f2::t_48102eed289e93 18-19
+  s_64bfe2347f33f2::t_1f1b94bbbf334a 35
+  s_64bfe2347f33f2::t_219fda75490552 1-2
+  s_64bfe2347f33f2::t_762da09a4960d2 4-6
+  s_64bfe2347f33f2::t_6595501ffc3529 8-10,15-17
+  s_64bfe2347f33f2::t_232f281d2d26a3 20-22,32-34
+  s_64bfe2347f33f2::t_a69d2371d10ef7 36-38
+  s_64bfe2347f33f2::t_7cb420ce4ebe16 11-14,23-31,39-48
+src/main/resources/META-INF/plugin.xml
+  s_64bfe2347f33f2::t_efe0d2b5ae6e2e 20
+  s_64bfe2347f33f2::t_49b6f3b98f2d08 26
+  s_64bfe2347f33f2::t_153fe106d9bf1d 17-19
+  s_64bfe2347f33f2::t_e5ad7cce4bd1e6 21-25
+  s_64bfe2347f33f2::t_6280d4a615d6c5 27-29
+  s_64bfe2347f33f2::t_d26fc37d55f44f 1-16,30-41
+gradlew
+  s_64bfe2347f33f2::t_04a7ba7a63ba53 1-248
+gradlew.bat
+  s_64bfe2347f33f2::t_cb9283a73872ea 1-82
+src/main/resources/META-INF/pluginIcon.svg
+  s_64bfe2347f33f2::t_319f183c22e876 1-3
+.github/workflows/build.yml
+  s_64bfe2347f33f2::t_fd169a93c25a13 1-55
+.gitignore
+  s_64bfe2347f33f2::t_3c2bd07bb3ce3c 1-8
+gradle/wrapper/gradle-wrapper.properties
+  s_64bfe2347f33f2::t_78d3be7ced88d5 1-7
+settings.gradle.kts
+  s_64bfe2347f33f2::t_084001ae47141b 1-8
+src/main/kotlin/io/github/cn3shy/ssc/action/SingleSqlCopyAction.kt
+  s_64bfe2347f33f2::t_c81e735397c5e6 1-44
+src/main/kotlin/io/github/cn3shy/ssc/core/MinifyOptions.kt
+  s_64bfe2347f33f2::t_dae7e1b4386e30 1-16
+src/main/kotlin/io/github/cn3shy/ssc/core/MinifyResult.kt
+  s_64bfe2347f33f2::t_0ea261d3906a70 1-14
+src/main/kotlin/io/github/cn3shy/ssc/core/SqlDialect.kt
+  s_64bfe2347f33f2::t_9306e75d422857 1-12
+src/main/kotlin/io/github/cn3shy/ssc/core/SqlOneLineMinifier.kt
+  s_64bfe2347f33f2::t_62e29440a0f505 1-337
+src/main/kotlin/io/github/cn3shy/ssc/core/SqlSafetyScanner.kt
+  s_64bfe2347f33f2::t_78ab45c48d4e4a 1-134
+src/test/kotlin/io/github/cn3shy/ssc/core/SqlOneLineMinifierTest.kt
+  s_64bfe2347f33f2::t_c09a7ab92ce2a1 1-205
+src/test/kotlin/io/github/cn3shy/ssc/core/SqlSafetyScannerTest.kt
+  s_64bfe2347f33f2::t_4bef280d470dd7 1-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9a5bf1a7538e93091e521ec014abe8e7377242d4",
+  "prompts": {},
+  "sessions": {
+    "s_64bfe2347f33f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b0207ae5-6c62-4868-a825-5611b755f573",
+        "model": "deepseek-flash"
+      },
+      "human_author": "Shy <cn3shy@qq.com>"
+    }
+  }
+}
