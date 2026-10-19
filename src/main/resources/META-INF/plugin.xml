@@ -3,15 +3,14 @@
     <name>Single Sql Copy</name>
     <vendor email="cn3shy@qq.com" url="https://github.com/cn3shy">cn3shy</vendor>
 
-    <description><![CDATA[
-        <b>Single Sql Copy</b> 将编辑器中选中的 SQL（未选中时使用当前编辑器全文）压缩为紧凑的一行，
-        并提供复制、替换选中内容、插入光标处等操作。插件以 Oracle 方言优先，同时兼容通用 SQL。
+    <description><![CDATA[Single Sql Copy is an IntelliJ IDEA plugin that compresses selected or full-editor SQL into a compact single line. It can copy the result, replace the selected SQL, or insert it at the caret. The minifier supports Oracle q-quote, Oracle Hints, quoted identifiers, comments, and strings without changing SQL semantics.
         <ul>
             <li>压缩多行 SQL，折叠普通空白，删除普通注释</li>
             <li>安全识别单引号字符串、Oracle q-quote、双引号标识符与 Oracle Hint</li>
             <li>可配置是否删除注释、是否保留 Oracle Hint、是否折叠空白</li>
-            <li>检测 UPDATE / DELETE 缺少 WHERE，并在对话框中明确警告</li>
-            <li>字符串内部换行不会被改写，同时给出“输出可能不是物理单行”的提示</li>
+            <li>支持复制、替换选中内容、插入光标处</li>
+            <li>对话框为非模态窗口，可继续操作 IDEA 主窗口并从其他文件复制 SQL</li>
+            <li>输出区自动换行展示，压缩结果默认全选</li>
         </ul>
         入口：Tools 菜单或编辑器右键菜单中的 <b>Single Sql Copy</b>。
     ]]></description>
