@@ -1,0 +1,19 @@
+src/main/resources/META-INF/plugin.xml
+  s_64bfe2347f33f2::t_e18c9a467ec2ff 6,11-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3df2729047513e14c2e8292e26ea7df6bd535aa2",
+  "prompts": {},
+  "sessions": {
+    "s_64bfe2347f33f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b0207ae5-6c62-4868-a825-5611b755f573",
+        "model": "deepseek-flash"
+      },
+      "human_author": "Shy <cn3shy@qq.com>"
+    }
+  }
+}
