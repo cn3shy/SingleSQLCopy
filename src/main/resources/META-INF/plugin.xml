@@ -16,9 +16,12 @@
     ]]></description>
 
     <change-notes><![CDATA[
-        <b>2610.19.1</b>
+        <b>2610.19.2</b>
         <ul>
-            <li>首个版本：SQL 单行压缩、Oracle 安全词法识别、安全扫描与编辑器写回操作。</li>
+            <li>修复 Marketplace 插件描述校验问题。</li>
+            <li>对话框改为非模态，支持在打开时继续操作 IDEA 主窗口并从其他文件复制 SQL。</li>
+            <li>输出 SQL 支持自动换行展示；移除警告/状态区域。</li>
+            <li>最低支持 IntelliJ IDEA 2026.1。</li>
         </ul>
     ]]></change-notes>
 

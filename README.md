@@ -101,7 +101,7 @@ SQL 字符串或 q-quote 内部可能包含真实换行。此时插件不会删�
 
 ## GitHub Actions 打包与发布
 
-仓库包含 `.github/workflows/build.yml`。推送形如 `v2610.19.1` 的 tag 时会自动：
+仓库包含 `.github/workflows/build.yml`。推送形如 `v2610.19.2` 的 tag 时会自动：
 
 1. 使用 JDK 17 运行 `./gradlew test buildPlugin`；
 2. 上传插件 zip 到 Actions Artifact；
@@ -116,7 +116,7 @@ PUBLISH_TOKEN
 
 该 token 来自 JetBrains Marketplace 的 **My Tokens**。GitHub Release 使用自动提供的 `GITHUB_TOKEN`。
 
-版本由 tag 去除前缀 `v` 后覆盖，例如 `v2610.19.1` 会构建 `2610.19.1`。本地默认版本在 `gradle.properties` 的 `pluginVersion` 中配置。
+版本由 tag 去除前缀 `v` 后覆盖，例如 `v2610.19.2` 会构建 `2610.19.2`。本地默认版本在 `gradle.properties` 的 `pluginVersion` 中配置。
 
 ## 项目结构
 

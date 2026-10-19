@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.github.cn3shy.ssc"
-version = providers.gradleProperty("pluginVersion").getOrElse("2610.19.1")
+version = providers.gradleProperty("pluginVersion").getOrElse("2610.19.2")
 
 repositories {
     mavenCentral()
