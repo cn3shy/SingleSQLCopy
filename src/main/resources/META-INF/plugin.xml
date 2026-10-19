@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>io.github.cn3shy.ssc</id>
+    <name>Single Sql Copy</name>
+    <vendor email="cn3shy@qq.com" url="https://github.com/cn3shy">cn3shy</vendor>
+
+    <description><![CDATA[
+        <b>Single Sql Copy</b> 将编辑器中选中的 SQL（未选中时使用当前编辑器全文）压缩为紧凑的一行，
+        并提供复制、替换选中内容、插入光标处等操作。插件以 Oracle 方言优先，同时兼容通用 SQL。
+        <ul>
+            <li>压缩多行 SQL，折叠普通空白，删除普通注释</li>
+            <li>安全识别单引号字符串、Oracle q-quote、双引号标识符与 Oracle Hint</li>
+            <li>可配置是否删除注释、是否保留 Oracle Hint、是否折叠空白</li>
+            <li>检测 UPDATE / DELETE 缺少 WHERE，并在对话框中明确警告</li>
+            <li>字符串内部换行不会被改写，同时给出“输出可能不是物理单行”的提示</li>
+        </ul>
+        入口：Tools 菜单或编辑器右键菜单中的 <b>Single Sql Copy</b>。
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <b>2610.19.1</b>
+        <ul>
+            <li>首个版本：SQL 单行压缩、Oracle 安全词法识别、安全扫描与编辑器写回操作。</li>
+        </ul>
+    ]]></change-notes>
+
+    <idea-version since-build="261"/>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <actions>
+        <action id="SingleSqlCopyAction"
+                class="io.github.cn3shy.ssc.action.SingleSqlCopyAction"
+                text="Single Sql Copy"
+                description="将选中或全部 SQL 压缩为一行，并支持复制、替换选中和插入光标处">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift M"/>
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
