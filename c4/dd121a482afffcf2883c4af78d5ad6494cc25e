@@ -1,0 +1,26 @@
+gradle.properties
+  s_64bfe2347f33f2::t_4fed62bc59496d 1
+build.gradle.kts
+  s_64bfe2347f33f2::t_30885f46bc8a73 7
+README.md
+  s_64bfe2347f33f2::t_a33de773639a7f 119
+  s_64bfe2347f33f2::t_57381545c5e1e6 104
+src/main/resources/META-INF/plugin.xml
+  s_64bfe2347f33f2::t_ede5b0126347d4 19,21-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c4dd121a482afffcf2883c4af78d5ad6494cc25e",
+  "prompts": {},
+  "sessions": {
+    "s_64bfe2347f33f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b0207ae5-6c62-4868-a825-5611b755f573",
+        "model": "deepseek-flash"
+      },
+      "human_author": "Shy <cn3shy@qq.com>"
+    }
+  }
+}
